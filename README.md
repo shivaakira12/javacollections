@@ -1,4 +1,3 @@
-Here’s a structured README you can add to your GitHub repository for the **Collection Framework** demonstration:
 
 ---
 
