@@ -158,6 +158,7 @@ public class ArrayListDemo3 {
         System.out.println(al); // [Dog, Cat, Elephant]
     }
 }
+```
 ## LinkedList Class
 
 - **LinkedList** is a doubly linked list that implements the `List` and `Deque` interfaces.
