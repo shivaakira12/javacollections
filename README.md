@@ -158,23 +158,27 @@ public class ArrayListDemo3 {
         System.out.println(al); // [Dog, Cat, Elephant]
     }
 }
-LinkedList Class
-LinkedList is a doubly linked list that implements the List and Deque interfaces.
-It is best suited for scenarios where insertion and deletion from the middle of the list are frequent.
-LinkedList allows null insertion, heterogeneous objects, and duplicates. However, it is not suited for random access operations (like retrieving data using an index) because of its internal structure.
-Important Methods of LinkedList:
-void addFirst(Object o) – Inserts the element at the beginning of the list.
-void addLast(Object o) – Inserts the element at the end of the list.
-Object getFirst() – Retrieves the first element of the list.
-Object getLast() – Retrieves the last element of the list.
-Object removeFirst() – Removes the first element of the list.
-Object removeLast() – Removes the last element of the list.
-Example Code:
-Here are some code examples that demonstrate how to use LinkedList.
+## LinkedList Class
 
-Example 1: Basic Operations with LinkedList
-java
-Copy code
+- **LinkedList** is a doubly linked list that implements the `List` and `Deque` interfaces.
+- It is best suited for scenarios where insertion and deletion from the middle of the list are frequent.
+- LinkedList allows null insertion, heterogeneous objects, and duplicates. However, it is not suited for random access operations (like retrieving data using an index) because of its internal structure.
+  
+#### Important Methods of LinkedList:
+- `void addFirst(Object o)` – Inserts the element at the beginning of the list.
+- `void addLast(Object o)` – Inserts the element at the end of the list.
+- `Object getFirst()` – Retrieves the first element of the list.
+- `Object getLast()` – Retrieves the last element of the list.
+- `Object removeFirst()` – Removes the first element of the list.
+- `Object removeLast()` – Removes the last element of the list.
+
+### Example Code:
+
+Here are some code examples that demonstrate how to use `LinkedList`.
+
+#### Example 1: Basic Operations with LinkedList
+
+```java
 package linkedList;
 
 import java.util.Iterator;
@@ -232,9 +236,11 @@ public class LinkedListDemo1 {
         }
     }
 }
-Example 2: Sorting and Collection Operations with LinkedList
-java
-Copy code
+```
+
+#### Example 2: Sorting and Collection Operations with LinkedList
+
+```java
 package linkedList;
 
 import java.util.Collections;
@@ -266,9 +272,11 @@ public class LinkedListDemo2 {
         System.out.println(birds); // [Wolf, Sparrow, Pigeon, Lion, Elephant, Donkey, Crow]
     }
 }
-Example 3: LinkedList as a Stack and Queue
-java
-Copy code
+```
+
+#### Example 3: LinkedList as a Stack and Queue
+
+```java
 package linkedList;
 
 import java.util.LinkedList;
